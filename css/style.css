@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-image:radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/11.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: fixed;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 20px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    background-color: floralwhite;
+    color: rgb(0, 0, 0);
+
+}
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 20px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(160, 140, 140);
+}
+
+.box{
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+
+.bx{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 20px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.bx:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
